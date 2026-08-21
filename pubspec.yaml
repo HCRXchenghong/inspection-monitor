@@ -1,0 +1,48 @@
+name: room_guard
+description: "酒店防偷拍检测工具 - 多维度隐私安全检测"
+publish_to: 'none'
+version: 1.0.1+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # 网络信息
+  network_info_plus: ^6.1.2
+  connectivity_plus: ^6.1.1
+
+  # mDNS 发现
+  multicast_dns: ^0.3.2+7
+
+  # 相机
+  camera: ^0.11.0+2
+
+  # 传感器
+  sensors_plus: ^6.1.1
+
+  # BLE 蓝牙
+  flutter_blue_plus: ^1.35.2
+
+  # HTTP 探测
+  http: ^1.3.0
+
+  # 权限管理
+  permission_handler: ^11.4.0
+
+  # Wi-Fi 扫描 (Android)
+  wifi_scan: ^0.4.1+1
+
+  # 图像处理
+  image: ^4.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
